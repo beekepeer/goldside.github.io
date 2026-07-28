@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ɢоʟᴅsɪᴅᴇ sʜоᴘ — Другое</title>
+    <style>
+        body { background-color: #0A0A0C; color: #FFFFFF; font-family: Arial, sans-serif; text-align: center; padding: 40px 20px; margin: 0; }
+        h1 { font-size: 45px; background: linear-gradient(45deg, #ff00cb, #0cfcfb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .tabs-menu { display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; }
+        .tab-btn { background: rgba(255, 255, 255, 0.03); border: 2px solid rgba(255, 255, 255, 0.1); color: white; padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 8px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        .tab-btn:hover, .tab-btn.active { border-color: #0cfcfb; box-shadow: 0 0 15px rgba(12, 252, 251, 0.3); background: linear-gradient(45deg, #ff00cb, #0cfcfb); border-color: transparent; }
+        .section-title { font-size: 24px; color: #0cfcfb; text-transform: uppercase; text-align: left; margin: 40px 0 20px 0; border-left: 4px solid #ff00cb; padding-left: 15px; letter-spacing: 1px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-bottom: 40px; justify-items: center; }
+        .card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); padding: 30px 20px; border-radius: 12px; width: 100%; max-width: 320px; transition: 0.3s; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; }
+        .card:hover { transform: translateY(-10px); border-color: #ff00cb; box-shadow: 0 0 25px rgba(255, 0, 203, 0.25); }
+        .btn { display: inline-block; padding: 12px 20px; background: linear-gradient(45deg, #ff00cb, #0cfcfb); color: white; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: auto; width: 100%; transition: 0.2s; box-sizing: border-box; }
+        .btn:hover { opacity: 0.9; box-shadow: 0 0 15px rgba(12, 252, 251, 0.4); }
+        .badge { position: absolute; top: 15px; right: 15px; background: #ff0055; color: white; padding: 4px 10px; font-size: 11px; font-weight: bold; border-radius: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ɢоʟᴅsɪᴅᴇ sʜоᴘ</h1>
+        
+        <div class="tabs-menu">
+            <a href="cases.html" class="tab-btn">📦 Кейсы</a>
+            <a href="privileges.html" class="tab-btn">👑 Привилегии</a>
+            <a href="other.html" class="tab-btn active">⚙️ Другое</a>
+        </div>
+
+        <div class="section-title" style="color: #ffff00; border-left-color: #ffff00;">⚙️ Дополнительные услуги и Иммунитеты</div>
+        <div class="grid">
+            <div class="card" style="border-color: #00ff00;">
+                <div class="badge" style="background: #00ff00; color: #000;">УСЛУГА</div>
+                <h3 style="color: #00ff00; margin:0;">Досрочный Разбан</h3>
+                <div style="font-size: 50px; margin: 15px 0;">🔓</div>
+                <p style="color: #aaa; font-size: 14px;">Полное досрочное снятие блокировки аккаунта на сервере GoldSide в один клик!</p>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">79 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #00ff00, #00aa00);">Разбанить аккаунт</a>
+            </div>
+            <div class="card" style="border-color: #ff00cb;">
+                <div class="badge" style="background: #ff00cb; color: #fff;">УСЛУГА</div>
+                <h3 style="color: #ff00cb; margin:0;">Досрочный Размут</h3>
+                <div style="font-size: 50px; margin: 15px 0;">📢</div>
+                <p style="color: #aaa; font-size: 14px;">Младшие админы заглушили чат? Сними блокировку голоса досрочно и вернись в игру!</p>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">39 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #ff00cb, #800080);">Размутить чат</a>
+            </div>
+            <div class="card" style="border-color: #0cfcfb;">
+                <div class="badge" style="background: #0cfcfb; color: #000;">🛡️ ВЕЧНО</div>
+                <h3 style="color: #0cfcfb; margin:0;">Полный Иммунитет</h3>
+                <div style="font-size: 50px; margin: 15px 0;">🛡️</div>
+                <p style="color: #aaa; font-size: 14px;">Ультимативная вечная защита твоего профиля от любых банов, мутов и киков на спавне!</p>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">149 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #0cfcfb, #00fff7); color: #000;">Купить защиту</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
