@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ɢоʟᴅsɪᴅᴇ sʜоᴘ — Кейсы</title>
+    <style>
+        body { background-color: #0A0A0C; color: #FFFFFF; font-family: Arial, sans-serif; text-align: center; padding: 40px 20px; margin: 0; }
+        h1 { font-size: 45px; background: linear-gradient(45deg, #ff00cb, #0cfcfb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .tabs-menu { display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; }
+        .tab-btn { background: rgba(255, 255, 255, 0.03); border: 2px solid rgba(255, 255, 255, 0.1); color: white; padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 8px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        .tab-btn:hover, .tab-btn.active { border-color: #0cfcfb; box-shadow: 0 0 15px rgba(12, 252, 251, 0.3); background: linear-gradient(45deg, #ff00cb, #0cfcfb); border-color: transparent; }
+        .section-title { font-size: 24px; color: #0cfcfb; text-transform: uppercase; text-align: left; margin: 40px 0 20px 0; border-left: 4px solid #ff00cb; padding-left: 15px; letter-spacing: 1px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-bottom: 40px; justify-items: center; }
+        .card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); padding: 30px 20px; border-radius: 12px; width: 100%; max-width: 320px; transition: 0.3s; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; }
+        .card:hover { transform: translateY(-10px); border-color: #ff00cb; box-shadow: 0 0 25px rgba(255, 0, 203, 0.25); }
+        .case-img { width: 100px; height: 100px; margin: 15px auto; display: block; object-fit: contain; }
+        .btn { display: inline-block; padding: 12px 20px; background: linear-gradient(45deg, #ff00cb, #0cfcfb); color: white; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: auto; width: 100%; transition: 0.2s; box-sizing: border-box; }
+        .btn:hover { opacity: 0.9; box-shadow: 0 0 15px rgba(12, 252, 251, 0.4); }
+        .badge { position: absolute; top: 15px; right: 15px; background: #ff0055; color: white; padding: 4px 10px; font-size: 11px; font-weight: bold; border-radius: 20px; }
+        .ranks-list { font-size: 13px; text-align: center; line-height: 1.8; margin: 15px 0; color: #bbb; }
+        .tricolor-text { background: linear-gradient(to right, #ffffff 33%, #0055ff 33%, #0055ff 66%, #ff0000 66%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ɢоʟᴅsɪᴅᴇ sʜоᴘ</h1>
+        
+        <div class="tabs-menu">
+            <a href="cases.html" class="tab-btn active">📦 Кейсы</a>
+            <a href="privileges.html" class="tab-btn">👑 Привилегии</a>
+            <a href="other.html" class="tab-btn">⚙️ Другое</a>
+        </div>
+
+        <div class="section-title">🎁 Донат-Кейсы (Испытай удачу)</div>
+        <div class="grid">
+            <div class="card" style="border-color: #ff00cb;">
+                <h3 style="color: #ff00cb; margin:0;">Кейс Доната (x1)</h3>
+                <img src="case.png" class="case-img" alt="Кейс">
+                <div class="ranks-list">
+                    Шанс выбить ранг строго по возрастанию:<br>
+                    1. <span style="color: #ff00cb; font-weight:bold;">[VIP]</span> • 2. <span style="color: #ff0000; font-weight:bold;">[Премиум]</span><br>
+                    3. <span style="color: #0cfcfb; font-weight:bold;">[Модератор]</span> • 4. <span style="color: #ffff00; font-weight:bold;">[Креатив]</span><br>
+                    5. <span style="color: #ffaa00; font-weight:bold;">[Огонёк]</span> • 6. <span style="color: #ff0000; font-weight:bold;">[Властелин]</span><br>
+                    7. <span class="tricolor-text">[Президент]</span>
+                </div>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">29 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #ff00cb, #800080);">Купить x1</a>
+            </div>
+            <div class="card" style="border-color: #ffaa00;">
+                <div class="badge">ВЫГОДНО</div>
+                <h3 style="color: #ffaa00; margin:0;">Кейс Доната (x5)</h3>
+                <img src="case.png" class="case-img" alt="Кейс">
+                <div class="ranks-list">
+                    5 круток! Повышенные шансы выбить оранжевого <span style="color: #ffaa00; font-weight:bold;">[Огонька]</span>, красного <span style="color: #ff0000; font-weight:bold;">[Властелина]</span> или триколор <span class="tricolor-text">[Президента]</span>!
+                </div>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;"><span style="text-decoration: line-through; color: #555; font-size: 16px; margin-right: 5px;">145р</span> 119 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #ffaa00, #ff0000);">Купить x5</a>
+            </div>
+            <div class="card" style="border-color: #ff0000;">
+                <div class="badge" style="background: linear-gradient(to right, #fff, #00f, #f00); color: #000; font-size: 9px;">ХИТ</div>
+                <h3 style="background: linear-gradient(to right, #fff, #00f, #f00); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin:0;">Кейс Доната (x10)</h3>
+                <img src="case.png" class="case-img" alt="Кейс">
+                <div class="ranks-list">
+                    10 сундуков оптом! Выбор спонсоров проекта. Гарантированный дроп высших политических чинов сервера!
+                </div>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;"><span style="text-decoration: line-through; color: #555; font-size: 16px; margin-right: 5px;">290р</span> 199 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(to right, #fff, #00f, #f00); color: #000;">Купить x10</a>
+            </div>
+        </div>
+
+        <div class="section-title" style="color: #0cfcfb; border-left-color: #0cfcfb;">🏹 Кейсы Уникальных Титулов</div>
+        <div class="grid">
+            <div class="card" style="border-color: #0cfcfb;">
+                <h3 style="color: #0cfcfb; margin:0;">Кейс Титулов (x1)</h3>
+                <img src="blue_case.png" class="case-img" alt="Кейс">
+                <p style="color: #aaa; font-size: 13px;">Выбей редкий титул или неоновую стрелочку после ника!</p>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;">15 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #0cfcfb, #00fff7); color: #000;">Купить x1</a>
+            </div>
+            <div class="card" style="border-color: rgba(12, 252, 251, 0.3);">
+                <div class="badge" style="background: #0cfcfb; color: #000;">СКИДКА</div>
+                <h3 style="color: #0cfcfb; margin:0;">Кейс Титулов (x5)</h3>
+                <img src="blue_case.png" class="case-img" alt="Кейс">
+                <p style="color: #aaa; font-size: 13px;">5 прокруток. Сделай свой ник самым приметным в ТАБ-листе.</p>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;"><span style="text-decoration: line-through; color: #555; font-size: 16px; margin-right: 5px;">75р</span> 59 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #0cfcfb, #ff00cb;">Купить x5</a>
+            </div>
+            <div class="card" style="border-color: #ff00cb;">
+                <div class="badge">ТОП</div>
+                <h3 style="color: #ff00cb; margin:0;">Кейс Титулов (x10)</h3>
+                <img src="blue_case.png" class="case-img" alt="Кейс">
+                <p style="color: #aaa; font-size: 13px;">10 сундуков. Собери полную коллекцию редких суффиксов.</p>
+                <div style="font-size: 22px; font-weight: bold; margin-bottom: 10px;"><span style="text-decoration: line-through; color: #555; font-size: 16px; margin-right: 5px;">150р</span> 99 руб.</div>
+                <a href="#" class="btn" style="background: linear-gradient(45deg, #ff00cb, #ff0055;">Купить x10</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
