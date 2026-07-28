@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ɢоʟᴅsɪᴅᴇ sʜоᴘ — Главная</title>
+    <style>
+        body { background-color: #0A0A0C; color: #FFFFFF; font-family: Arial, sans-serif; text-align: center; padding: 40px 20px; margin: 0; }
+        h1 { font-size: 45px; background: linear-gradient(45deg, #ff00cb, #0cfcfb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 5px; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .tabs-menu { display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; }
+        .tab-btn { background: rgba(255, 255, 255, 0.03); border: 2px solid rgba(255, 255, 255, 0.1); color: white; padding: 12px 30px; font-size: 16px; font-weight: bold; border-radius: 8px; text-decoration: none; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
+        .tab-btn:hover, .tab-btn.active { border-color: #0cfcfb; box-shadow: 0 0 15px rgba(12, 252, 251, 0.3); background: linear-gradient(45deg, #ff00cb, #0cfcfb); border-color: transparent; }
+        .nickname-box { background: rgba(255, 255, 255, 0.05); border: 2px solid #ff00cb; padding: 25px; border-radius: 15px; box-shadow: 0 0 20px rgba(255, 0, 203, 0.2); margin-bottom: 40px; }
+        input[type="text"] { padding: 15px; width: 50%; border-radius: 8px; border: 1px solid #0cfcfb; background: #121214; color: white; font-size: 18px; text-align: center; outline: none; }
+        .welcome-box { background: rgba(255, 255, 255, 0.01); border: 1px solid rgba(255, 255, 255, 0.05); padding: 50px; border-radius: 12px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ɢоʟᴅsɪᴅᴇ sʜоᴘ</h1>
+        <p style="color: #888; font-size: 18px; margin-bottom: 35px;">Проект мечты! Введи ник и выбирай категорию доната.</p>
+        
+        <div class="nickname-box">
+            <input type="text" placeholder="ВВЕДИ СВОЙ НИКНЕЙМ">
+        </div>
+
+        <!-- 🧭 Профессиональные ссылки-вкладки -->
+        <div class="tabs-menu">
+            <a href="cases.html" class="tab-btn">📦 Кейсы</a>
+            <a href="privileges.html" class="tab-btn">👑 Привилегии</a>
+            <a href="other.html" class="tab-btn">⚙️ Другое</a>
+        </div>
+
+        <div class="welcome-box">
+            <h2 style="color: #0cfcfb; margin-top: 0;">👋 Добро пожаловать на витрину товаров!</h2>
+            <p style="color: #aaa; font-size: 16px;">Чтобы начать, введи свой никнейм в поле выше и кликни по любой вкладке меню для выбора доната!</p>
+        </div>
+    </div>
+</body>
+</html>
